@@ -1,0 +1,30 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', cursive;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    font-size: 3rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: darkcyan;
+    text-decoration: underline;
+}
+
+.check {
+    height: 100vh;
+    background: linear-gradient(50deg, purple, orange);
+}
